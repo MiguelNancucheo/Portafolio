@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio Miguel Ñancucheo">
+    <title>Portalfolio</title>
+</head>
+<body>
+    <h1>Miguel Ñancucheo</h1>
+    <img src="foto_miguel.jpg" alt="Foto perfil" height="120px">
+    <p>    
+        <img src="face.png" alt="Foce" height="15px"><a href="https://www.facebook.com/">Facebook</a>
+        <img src="insta.png" alt="Instgran" height="15px"><a href="https://www.instagram.com/">Instagram</a>
+        <img src="twit.png" alt="Foce"  height="15px"><a href="https://twitter.com/">Twitter</a>
+        <img src="email.png" alt="Foce"  height="15px"><a href="mnancuch@gmail.com">Mi correo</a>
+    </p>    
+    <p>Hola, mi nombre es Miguel Ñancucheo, tengo 48 años y vivo en Santiago de Chile. </p>
+    <p>Soy funcionario del Banco del Estado de Chile, mas conocido como BancoEstado, llevo muchos años.</p>
+    <h3>Proyectos</h3>
+    <ul>
+        <li>Implemetar sistema de caja en el Banco</li>
+        <li>Participar en multiples mejoras al sistema de Caja:
+            <ul>
+                <li>Integración con Transantiago</li>
+                <li>Integración con TGR</li>
+                <li>Integración con Nexus</li>
+            </ul>
+        </li>
+        <li>Participar en el sistema DVA</li>
+    </ul>
+    <h3>Mis pasatiempos:</h3>
+    <ol>
+        <li>Ver peliculas: Star Wars, Start Trek, entre otras.</li>
+        <li>Jugar videos juegos</li>
+        <li>Futbool, ver porque ya no practico. Por supuesto colocolino.</li>
+        <li>Ver televisión, algunas serie (TBBT, House, etc) y programas deportivos.</li>
+    </ol>
+    <h3>Conocimiento</h3>
+    <table>
+        <thead>
+            <tr>
+                <td>Lenguajes</td>
+                <td>Data Base</td>
+                <td>Aplicaciones</td>
+                <td>Aprendiendo</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>PowerBuilder</td>
+                <td>SQL Server</td>
+                <td>Office</td>
+                <td>HTML CSS</td>
+            </tr>
+            <tr>
+                <td>Visual Basic</td>
+                <td></td>
+                <td>PhotoShop</td>
+                <td>JavaScript</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>NodoJS / Mongo</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Contacto</h3>
+    <form action="/process" method="post">
+        <div>
+            <!--             <span>Name: </span><input type="text" name="contact_name">
+            <span>Email: </span><input type="text" name="contact_email">        -->
+            <label>Name: </label><input type="text" name="contact_name">
+            <label>Email: </label><input type="text" name="contact_email">
+        </div>
+        <div>
+            <label>Message:</label> 
+                <textarea name="contact_msg" cols="40" rows="3"></textarea>
+        </div>
+         <input type="submit" value="Send Message">
+    </form>
+</body>
+</html>
